@@ -17,6 +17,7 @@ function App() {
           <Route path='/HTML' element={<div><h2>HTML</h2><p>HELLO</p></div>} />
           <Route path='/CSS' element={<div><h2>CSS</h2><p>HELLO</p></div>} />
           <Route path='/Javascript' element={<div><h2>Javascript</h2><p>HELLO</p></div>} />
+          <Route path='/sai' element={<div><h2>hello git</h2><p>huuu</p></div>} />
           
         </Routes>
       </div>
