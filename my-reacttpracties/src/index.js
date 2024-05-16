@@ -5,11 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { ShoppingIndex } from './Shopping-spa/Shopping-index';
+import { FormDemo } from './tutorial/FormDemo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ShoppingIndex/>
+    <FormDemo/>
   </React.StrictMode>
 );
 
