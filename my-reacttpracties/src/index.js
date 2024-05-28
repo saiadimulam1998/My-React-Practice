@@ -6,11 +6,16 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { ShoppingIndex } from './Shopping-spa/Shopping-index';
 import { FormDemo } from './tutorial/FormDemo';
-
+import { TutorialIndex } from './Components/TutoriaIndex';
+import { FakeStoreHome } from './FakeStore/FakeStoreHome';
+import { FakeStoreIndex } from './FakeStore/FakeStoreIndex';
+import { CookiesProvider } from 'react-cookie';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <FormDemo/>
+   <CookiesProvider>
+ <TutorialIndex/>
+   </CookiesProvider>
   </React.StrictMode>
 );
 

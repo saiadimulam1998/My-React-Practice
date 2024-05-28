@@ -120,6 +120,7 @@ export function FormDemo(){
         e.preventDefault();
         alert(JSON.stringify(user));
     }
+    
     return(
         <div className="container-fluid">
             <form onSubmit={handleFormSubmit}>
