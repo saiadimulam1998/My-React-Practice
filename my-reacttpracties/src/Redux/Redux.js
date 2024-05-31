@@ -16,6 +16,7 @@ export function Redux(){
             <button onClick={()=>{dispatch(-1)}} className="btn btn-primary mt-2">-</button>
             <h2>{counter}</h2>
             <button onClick={()=>{dispatch(+1)}} className="btn btn-primary mt-2">+</button>
+            console.log(dispatch)
         </div>
     )
 }
