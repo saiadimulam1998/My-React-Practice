@@ -10,11 +10,15 @@ import { TutorialIndex } from './Components/TutoriaIndex';
 import { FakeStoreHome } from './FakeStore/FakeStoreHome';
 import { FakeStoreIndex } from './FakeStore/FakeStoreIndex';
 import { CookiesProvider } from 'react-cookie';
+import { Redux } from './Redux/Redux';
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    <CookiesProvider>
- <TutorialIndex/>
+  <Redux/>
    </CookiesProvider>
   </React.StrictMode>
 );
